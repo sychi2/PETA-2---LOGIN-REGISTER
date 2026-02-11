@@ -31,8 +31,13 @@
     <form method="post">
 
         <input type="text" name="fullname" placeholder="Enter your full name:">
+
+        <br>
+        <br>
+
         <input type="number" name="age" placeholder="Enter your age:">
         
+        <br>
         <br>
         
         <select name="citizenship">
@@ -43,12 +48,17 @@
             <option value="indiano">Indian</option>
             <option value="chino">Chinese</option>
         </select>
+
+        <br>
+        <br>
+
         <select name="gradeLevel">
             <option value="">Enter your Grade Level</option>
             <option value="11">Grade 11</option>
             <option value="12">Grade 12</option>
         </select>
 
+        <br>
         <br>
 
         <select name="sex">
@@ -57,11 +67,18 @@
             <option value="female">Female</option>
         </select>
 
+        <br>
+        <br>
+
         <input type="text" name="address" placeholder="Enter your address:">
 
         <br>
+        <br>
 
         <input type="email" name="email" placeholder="Enter your email:">
+        
+        <br>
+        <br>
 
         <input type="password" name="password" placeholder="Enter your passord:">
 
@@ -94,7 +111,15 @@
     <br>
     <form method="post">
         <input type="email" name="login-email" placeholder="Enter your email:">
+        
+        <br>
+        <br>
+
         <input type="password" name="login-password" placeholder="Enter your password:">
+
+        <br>
+        <br>
+
         <input type="submit" name="login-submit">
     </form>
 
